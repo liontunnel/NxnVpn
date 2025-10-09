@@ -1,5 +1,5 @@
 # Decrypted by WV | FUSCATOR
-# Github- https://github.com/bowowiwendi/Absurd
+# Github- https://github.com/liontunnel/Absurd
 
 cd /usr/local/
 rm -rf sbin
@@ -37,8 +37,8 @@ echo -e "\033[0;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
 tput cnorm
 }
 res1() {
-wget https://raw.githubusercontent.com/bowowiwendi/WendyVpn/ABSTRAK/Features/menu.zip
-wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/bowowiwendi/WendyVpn/ABSTRAK/enc/encrypt" ; chmod +x /usr/bin/enc
+wget https://raw.githubusercontent.com/liontunnel/NxnVpn/ABSTRAK/Features/menu.zip
+wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/liontunnel/NxnVpn/ABSTRAK/enc/encrypt" ; chmod +x /usr/bin/enc
 7z e -paskykenza123 menu.zip
 unzip menu.zip
 chmod +x menu/*
