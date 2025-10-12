@@ -37,8 +37,8 @@ echo -e "\033[0;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
 tput cnorm
 }
 res1() {
-wget https://raw.githubusercontent.com/liontunnel/NxnVpn/ABSTRAK/Features/menu1.zip
-wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/liontunnel/NxnVpn/ABSTRAK/enc/encrypt" ; chmod +x /usr/bin/enc
+wget https://raw.githubusercontent.com/liontunnel/NxnVpn/liontunnel/Features/menu1.zip
+wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/liontunnel/NxnVpn/liontunnel/enc/encrypt" ; chmod +x /usr/bin/enc
 7z e -paskykenza123 menu1.zip
 unzip menu1.zip
 chmod +x menu/*
